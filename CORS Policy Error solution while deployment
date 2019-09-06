@@ -1,0 +1,9 @@
+location /adrsteps/ {
+    rewrite ^(\/adrsteps\/) /adrsteps.json$2 break;
+    proxy_pass https://domain-b.com;
+    proxy_redirect off;
+
+    add_header 'Access-Control-Allow-Origin' 'https://domain-b.com' always;
+    add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS' always;
+    add_header 'Access-Control-Allow-Headers' 'Accept,Authorization,Cache-Control,Content-Type,DNT,If-Modified-Since,Keep-Alive,Origin,User-Agent,X-Requested-With' always;
+  }

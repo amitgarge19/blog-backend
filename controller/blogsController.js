@@ -254,7 +254,7 @@ let createBlog = (req, res) => {
                     isPublished: true,
                     category: req.body.category,
                     author: req.user.fullName,
-                    created: time.now,
+                    created: time.now(),
                     lastModified: today
                 }) // end new blog model
 
