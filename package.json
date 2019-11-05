@@ -16,7 +16,7 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
-    "mongoose": "^5.5.2",
+    "mongoose": "^5.7.5",
     "pino": "^5.12.2",
     "shortid": "^2.2.14"
   }
