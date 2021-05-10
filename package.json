@@ -13,7 +13,7 @@
     "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
     "helmet": "^3.16.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "moment-timezone": "^0.5.25",
     "mongoose": "^5.5.2",
